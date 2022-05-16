@@ -1,0 +1,11 @@
+#include "Fecha."
+
+Fecha::Fecha()
+{
+    //ctor
+}
+
+Fecha::~Fecha()
+{
+    //dtor
+}

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652665205 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_5\main.cpp
+	<iostream>
+	"Matrix.h"
+
+1652666603 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_5\src\matrix.cpp
+	"Matrix.h"
+
+1652665934 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_5\include\matrix.h
+	<random>
+	<iostream>
+	<chrono>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1652411627 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_3\main.cpp
+	<iostream>
+	"Fecha.h"
+
+1652413035 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_3\include\fecha.h
+	<iostream>
+	<string>
+
+1652413035 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_3\src\fecha.cpp
+	"Fecha.h"
+

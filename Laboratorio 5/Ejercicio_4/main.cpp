@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+#include <string>
 #include <locale.h>
 
 template <class T>
@@ -269,4 +270,10 @@ int main()
     lista_1.insertar_aleatorio(100);
     lista_1.mostrar();
     lista_1.buscar(5);
+    Lista<std::string> lista_2;
+    lista_2.insertar_inicio("hola");
+    lista_2.insertar_final("como");
+    lista_2.insertar_final("estas");
+    lista_2.mostrar();
+    lista_2.buscar("como");
 }

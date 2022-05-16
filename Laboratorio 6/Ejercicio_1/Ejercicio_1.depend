@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1652401444 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_1\main.cpp
+	<iostream>
+	"Rectangulo.h"
+
+1652401690 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_1\include\rectangulo.h
+	<string>
+	<iostream>
+
+1652401711 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_1\src\rectangulo.cpp
+	<sstream>
+	"Rectangulo.h"
+

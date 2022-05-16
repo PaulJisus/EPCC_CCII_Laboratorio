@@ -9,9 +9,9 @@ int main()
 {
     Linkedlist L;
     srand(time(NULL));
-    for(int i = 0; i < 1000; i++)
+    for(int i = 0; i < 10000; i++)
     {
-        int num = -1000 + rand() % (2001);
+        int num = -10000 + rand() % (20001);
         L.insert(num);
     }
     cout << L;

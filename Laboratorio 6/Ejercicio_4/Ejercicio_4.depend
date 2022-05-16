@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1652659644 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\main.cpp
+	<iostream>
+	<string>
+	"Array.h"
+
+1652655861 source:d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\src\array.cpp
+	"Array.h"
+
+1652659019 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\include\array.h
+	<iostream>
+	"Array.cpp"
+
+1652659037 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\include\array.cpp
+	"Array.h"
+
+1652660111 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\array.h
+	<iostream>
+
+1652659157 d:\proyectos_c++\ccii_lab_b\laboratorio 6\ejercicio_4\array.cpp
+	"Array.h"
+
