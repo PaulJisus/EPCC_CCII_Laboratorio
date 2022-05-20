@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1653005946 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\main.cpp
+	<iostream>
+	"Objeto.h"
+
+1652834479 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\src\color.cpp
+	"Color.h"
+
+1652832670 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\include\color.h
+	<iostream>
+
+1652834761 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\src\material.cpp
+	"Material.h"
+
+1652832752 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\include\material.h
+	<string>
+	<iostream>
+
+1652834887 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\src\objeto.cpp
+	"Objeto.h"
+
+1652833623 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_2\include\objeto.h
+	<string>
+	<iostream>
+	"Color.h"
+	"Material.h"
+

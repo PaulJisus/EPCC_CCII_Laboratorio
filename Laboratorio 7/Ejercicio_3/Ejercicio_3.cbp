@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Ejercicio_5" />
+		<Option title="Ejercicio_3" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Ejercicio_3" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Ejercicio_3" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,9 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Matrix.h" />
+		<Unit filename="include/Cuenta.h" />
+		<Unit filename="include/CuentaJoven.h" />
+		<Unit filename="include/Hipoteca.h" />
+		<Unit filename="include/Prestamo.h" />
+		<Unit filename="include/ProductoBancario.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Matrix.cpp" />
+		<Unit filename="src/Cuenta.cpp" />
+		<Unit filename="src/CuentaJoven.cpp" />
+		<Unit filename="src/Hipoteca.cpp" />
+		<Unit filename="src/Prestamo.cpp" />
+		<Unit filename="src/ProductoBancario.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

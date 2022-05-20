@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1653004104 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_1\main.cpp
+	<iostream>
+	"Persona.h"
+	"Alumno.h"
+
+1653003384 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_1\src\alumno.cpp
+	"Alumno.h"
+
+1653003112 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_1\include\alumno.h
+	<iostream>
+	<string>
+	"Persona.h"
+
+1653005475 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_1\include\persona.h
+	<string>
+	<iostream>
+
+1653002849 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_1\src\persona.cpp
+	"Persona.h"
+

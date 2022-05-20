@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1652998299 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\main.cpp
+	<iostream>
+	"ProductoBancario.h"
+	"Cuenta.h"
+	"Prestamo.h"
+	"CuentaJoven.h"
+	"Hipoteca.h"
+
+1652996201 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\include\productobancario.h
+	<string>
+	<iostream>
+
+1652997142 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\include\cuenta.h
+	<string>
+	"ProductoBancario.h"
+
+1652995123 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\include\prestamo.h
+	<string>
+	"ProductoBancario.h"
+
+1652998037 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\src\prestamo.cpp
+	"Prestamo.h"
+
+1652998072 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\src\cuenta.cpp
+	"Cuenta.h"
+
+1652998371 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\src\productobancario.cpp
+	"ProductoBancario.h"
+
+1652998127 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\src\cuentajoven.cpp
+	"CuentaJoven.h"
+
+1652997437 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\include\cuentajoven.h
+	<string>
+	"Cuenta.h"
+
+1652998222 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\src\hipoteca.cpp
+	"Hipoteca.h"
+
+1652997825 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_3\include\hipoteca.h
+	<string>
+	"Prestamo.h"
+

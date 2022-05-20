@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1652930315 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_5\main.cpp
+	<iostream>
+	"Factorial.h"
+
+1652930189 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_5\src\base.cpp
+	"Base.h"
+
+1652992323 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_5\include\base.h
+	<iostream>
+
+1652930143 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_5\src\factorial.cpp
+	"Factorial.h"
+
+1652930136 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_5\include\factorial.h
+	<iostream>
+	"Base.h"
+

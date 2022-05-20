@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1653007067 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_4\main.cpp
+	<iostream>
+	"Disco.h"
+
+1653007136 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_4\src\disco.cpp
+	"Disco.h"
+
+1652841280 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_4\include\disco.h
+	<string>
+	<iostream>
+	"Multimedia.h"
+
+1652842796 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_4\include\multimedia.h
+	<string>
+	<iostream>
+
+1652842864 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_4\src\multimedia.cpp
+	"Multimedia.h"
+

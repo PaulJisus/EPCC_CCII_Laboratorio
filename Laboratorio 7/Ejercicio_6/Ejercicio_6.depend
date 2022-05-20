@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1653008163 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\main.cpp
+	<iostream>
+	"Ave.h"
+	"Ganso.h"
+	"Gallina.h"
+	"Pato.h"
+
+1653008242 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\src\ave.cpp
+	"Ave.h"
+
+1653000099 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\include\ave.h
+	<string>
+	<iostream>
+
+1653008254 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\src\gallina.cpp
+	"Gallina.h"
+
+1653001865 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\include\gallina.h
+	<string>
+	<iostream>
+	"Ave.h"
+
+1653008225 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\src\ganso.cpp
+	"Ganso.h"
+
+1653001616 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\include\ganso.h
+	<string>
+	<iostream>
+	"Ave.h"
+
+1653001994 d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\include\pato.h
+	<string>
+	<iostream>
+	"Ave.h"
+
+1653008265 source:d:\proyectos_c++\ccii_lab_b\laboratorio 7\ejercicio_6\src\pato.cpp
+	"Pato.h"
+

@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Ejercicio_5" />
+		<Option title="Ejercicio_2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Ejercicio_2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Ejercicio_2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Matrix.h" />
+		<Unit filename="include/Color.h" />
+		<Unit filename="include/Material.h" />
+		<Unit filename="include/Objeto.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Matrix.cpp" />
+		<Unit filename="src/Color.cpp" />
+		<Unit filename="src/Material.cpp" />
+		<Unit filename="src/Objeto.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

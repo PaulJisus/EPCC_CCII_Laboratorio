@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Ejercicio_5" />
+		<Option title="Ejercicio_6" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Ejercicio_6" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Ejercicio_5" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Ejercicio_6" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,11 +34,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Matrix.h" />
+		<Unit filename="include/Ave.h" />
+		<Unit filename="include/Gallina.h" />
+		<Unit filename="include/Ganso.h" />
+		<Unit filename="include/Pato.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Matrix.cpp" />
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
+		<Unit filename="src/Ave.cpp" />
+		<Unit filename="src/Gallina.cpp" />
+		<Unit filename="src/Ganso.cpp" />
+		<Unit filename="src/Pato.cpp" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

@@ -34,9 +34,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Matrix.h" />
+		<Unit filename="include/Base.h" />
+		<Unit filename="include/Factorial.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Matrix.cpp" />
+		<Unit filename="src/Base.cpp" />
+		<Unit filename="src/Factorial.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
