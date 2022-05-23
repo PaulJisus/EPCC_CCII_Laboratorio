@@ -1,0 +1,11 @@
+#include "Elipse."
+
+Elipse::Elipse()
+{
+    //ctor
+}
+
+Elipse::~Elipse()
+{
+    //dtor
+}

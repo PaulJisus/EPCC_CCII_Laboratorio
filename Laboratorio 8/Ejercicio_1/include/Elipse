@@ -1,0 +1,16 @@
+#ifndef ELIPSE_
+#define ELIPSE_
+
+
+class Elipse
+{
+    public:
+        Elipse();
+        virtual ~Elipse();
+
+    protected:
+
+    private:
+};
+
+#endif // ELIPSE_
