@@ -23,7 +23,7 @@ class Forma
         virtual double getArea() const;
         void Mover(const double, const double);
         virtual void imprimir() const;
-        ~Forma();
+        virtual ~Forma();
     private:
         std::string color;
         Punto centro;

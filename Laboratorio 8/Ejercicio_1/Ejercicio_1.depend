@@ -14,7 +14,7 @@
 1653186368 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\punto.cpp
 	"Punto.h"
 
-1653271567 d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\include\forma.h
+1653275620 d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\include\forma.h
 	<string>
 	<iostream>
 	"Punto.h"
@@ -22,7 +22,7 @@
 1653271600 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\forma.cpp
 	"Forma.h"
 
-1653192394 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\rectangulo.cpp
+1653273601 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\rectangulo.cpp
 	"Rectangulo.h"
 
 1653193566 d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\include\rectangulo.h
@@ -35,10 +35,10 @@
 	<iostream>
 	"Forma.h"
 
-1653195936 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\elipse.cpp
+1653273601 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\elipse.cpp
 	"Elipse.h"
 
-1653262777 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\cuadrado.cpp
+1653273601 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\cuadrado.cpp
 	"Cuadrado.h"
 
 1653264033 d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\include\cuadrado.h
@@ -49,6 +49,6 @@
 	<iostream>
 	"Elipse.h"
 
-1653264140 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\circulo.cpp
+1653273601 source:d:\proyectos_c++\ccii_lab_b\laboratorio 8\ejercicio_1\src\circulo.cpp
 	"Circulo.h"
 

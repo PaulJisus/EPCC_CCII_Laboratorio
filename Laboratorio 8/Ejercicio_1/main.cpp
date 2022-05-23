@@ -45,7 +45,7 @@ int main()
     ptrforma[1] = new Elipse("Violeta", 11.5, 9.6, "Elipse", 20, 10);
     ptrforma[2] = new Cuadrado("Magenta", 10.6, 8.7, "Cuadrado", 10.6, 0);
     ptrforma[3] = new Circulo("Carmin", 6.3, 3.4, "Circulo", 0, 8.7);
-    for(int i = 0; i < 4; i++)
+    for(int i{0}; i < 4; i++)
     {
         ptrforma[i]->setColor("Negro");
         ptrforma[i]->Mover(2.2, 3.3);
@@ -53,6 +53,10 @@ int main()
         std::cout << "¡¡¡Area!!! " << ptrforma[i]->getArea() << std::endl;;
     }
     Mayor(ptrforma, 4);
+    for(int i{0}; i < 4; i++)
+    {
+        delete ptrforma[i];
+    }
     return 0;
 }
 
@@ -60,7 +64,7 @@ void Mayor(Forma *ptrforma[], int n)
 {
     double mayor{0};
     int aux{0};
-    for(int i = 0; i < n; i++)
+    for(int i{0}; i < n; i++)
     {
         if(ptrforma[i]->getArea() > mayor)
         {
