@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1654051637 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_5\main.cpp
+	<iostream>
+	"Arreglo.h"
+
+1654051597 d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_5\include\arreglo.h
+	<iostream>
+
+1654050221 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_5\src\arreglo.cpp
+	"Arreglo.h"
+

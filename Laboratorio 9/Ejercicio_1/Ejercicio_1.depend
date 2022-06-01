@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1654055369 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_1\main.cpp
+	<iostream>
+	"MinMax.h"
+
+1654055406 d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_1\include\minmax.h
+	<iostream>
+
+1654055152 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_1\src\minmax.cpp
+	"MinMax.h"
+

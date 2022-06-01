@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1654056396 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_3\main.cpp
+	<iostream>
+	<string>
+	"Correo.h"
+
+1654057970 d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_3\include\correo.h
+	<iostream>
+	<string>
+
+1654048761 source:d:\proyectos_c++\ccii_lab_b\laboratorio 9\ejercicio_3\src\correo.cpp
+	"Correo.h"
+
