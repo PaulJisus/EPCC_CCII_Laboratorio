@@ -13,8 +13,8 @@ class LinkedList
         void setHead(Node *);
         Node *getHead() const;
         bool empty() const;
-        int front() const;
-        int back() const;
+        Node *front() const;
+        Node *back() const;
         void push_back(int);
         bool search(int);
         void pop_front();

@@ -15,8 +15,9 @@ class LinkedList
         void setHead(Node *);
         Node *getHead() const;
         bool empty() const;
-        int front() const;
-        int back() const;
+        Node *front() const;
+        Node *back() const;
+        Node *position(int) const;
         void push_back(int);
         void push_front(int);
         void insert(int, int);

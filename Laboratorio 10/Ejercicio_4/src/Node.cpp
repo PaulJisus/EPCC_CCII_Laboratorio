@@ -36,3 +36,10 @@ Node::~Node()
 {
 
 }
+
+std::ostream& operator<<(std::ostream &output, const Node &o)
+{
+    output << o.getValue();
+    return output;
+}
+

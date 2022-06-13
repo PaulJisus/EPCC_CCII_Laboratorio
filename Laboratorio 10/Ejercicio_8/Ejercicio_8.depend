@@ -1,21 +1,23 @@
 # depslib dependency file v1.0
-1654667840 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\main.cpp
+1655085369 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\main.cpp
 	<iostream>
+	<string>
 	<fstream>
+	<chrono>
 	"LinkedList.h"
 
-1654664411 d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\include\linkedlist.h
+1655084688 d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\include\linkedlist.h
 	"Node.h"
 	<iostream>
 	<random>
 	<chrono>
 
-1654661669 d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\include\node.h
+1655083587 d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\include\node.h
 	<iostream>
 
-1654661677 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\src\node.cpp
+1655083594 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\src\node.cpp
 	"Node.h"
 
-1654665761 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\src\linkedlist.cpp
+1655085497 source:d:\proyectos_c++\ccii_lab_b\laboratorio 10\ejercicio_8\src\linkedlist.cpp
 	"LinkedList.h"
 

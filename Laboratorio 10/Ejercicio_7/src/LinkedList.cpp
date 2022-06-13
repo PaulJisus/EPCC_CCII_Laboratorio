@@ -32,7 +32,7 @@ bool LinkedList::empty() const
     return (getHead() == nullptr);
 }
 
-int LinkedList::front() const
+Node *LinkedList::front() const
 {
     if(empty())
     {
@@ -40,11 +40,11 @@ int LinkedList::front() const
     }
     else
     {
-        return(getHead()->getValue());
+        return(getHead());
     }
 }
 
-int LinkedList::back() const
+Node *LinkedList::back() const
 {
     if(empty())
     {
@@ -57,7 +57,7 @@ int LinkedList::back() const
         {
             tmp = tmp->getNext();
         }
-        return(tmp->getValue());
+        return(tmp);
     }
 }
 
@@ -92,7 +92,11 @@ void LinkedList::push_front(int value)
 
 void LinkedList::insert(int pos, int value)
 {
-    if(pos >= 0 && pos <= size - 1)
+    if(empty())
+    {
+        push_front(value);
+    }
+    else if(pos >= 0 && pos <= getSize() - 1)
     {
         if(pos == 0)
         {
@@ -120,7 +124,7 @@ void LinkedList::insert(int pos, int value)
     }
     else
     {
-        throw std::invalid_argument("Posicion invalida en la lista.");
+        throw std::invalid_argument("Posicion invalida en la lista.\n");
     }
 }
 
@@ -224,6 +228,10 @@ void LinkedList::remove(int value)
     {
         throw std::invalid_argument("Lista Vacia");
     }
+    else if(!search(value))
+    {
+        throw std::invalid_argument("Elemento no existente en la lista.\n");
+    }
     else
     {
         Node *aux = getHead();
@@ -252,19 +260,26 @@ void LinkedList::remove(int value)
 
 void LinkedList::sort()
 {
-    MergeSort(&head);
+    if(empty())
+    {
+        throw std::invalid_argument("Lista Vacia");
+    }
+    else
+    {
+        MergeSort(&head);
+    }
 }
 
 void LinkedList::MergeSort(Node **Ref_head)
 {
-    Node *head = *Ref_head;
+    Node *aux = *Ref_head;
     Node *a = nullptr;
     Node *b = nullptr;
-    if((head == nullptr) || (head->getNext() == nullptr))
+    if((aux == nullptr) || (aux->getNext() == nullptr))
     {
         return;
     }
-    dividir(head, &a, &b);
+    dividir(aux, &a, &b);
     MergeSort(&a);
     MergeSort(&b);
     *Ref_head = SortedMerge(a, b);
@@ -340,11 +355,18 @@ LinkedList::~LinkedList()
 
 std::ostream& operator<<(std::ostream &output, const LinkedList &o)
 {
-    Node *aux;
-    for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+    if(o.empty())
     {
-        output << aux->getValue() << " -> ";
+        throw std::invalid_argument("Lista Vacia\n");
     }
-    output << aux->getValue() << " -> NULL\n";
-    return output;
+    else
+    {
+        Node *aux;
+        for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+        {
+            output << aux->getValue() << " -> ";
+        }
+        output << aux->getValue() << " -> NULL\n";
+        return output;
+    }
 }

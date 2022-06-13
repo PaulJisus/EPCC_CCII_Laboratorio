@@ -32,23 +32,23 @@ bool LinkedList::empty() const
     return (getHead() == nullptr);
 }
 
-int LinkedList::front() const
+Node *LinkedList::front() const
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
     }
     else
     {
-        return(getHead()->getValue());
+        return(getHead());
     }
 }
 
-int LinkedList::back() const
+Node *LinkedList::back() const
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
     }
     else
     {
@@ -57,7 +57,30 @@ int LinkedList::back() const
         {
             tmp = tmp->getNext();
         }
-        return(tmp->getValue());
+        return(tmp);
+    }
+}
+
+Node *LinkedList::position(int pos) const
+{
+    if(empty())
+    {
+        throw std::invalid_argument("Lista Vacia.\n");
+    }
+    else if(pos >= 0 && pos <= getSize() - 1)
+    {
+
+        Node *tmp = getHead();
+        while(pos >= 0)
+        {
+            tmp = tmp->getNext();
+            pos--;
+        }
+        return(tmp);
+    }
+    else
+    {
+        throw std::invalid_argument("Posicion invalida en la lista.\n");
     }
 }
 
@@ -92,7 +115,11 @@ void LinkedList::push_front(int value)
 
 void LinkedList::insert(int pos, int value)
 {
-    if(pos >= 0 && pos <= size - 1)
+    if(empty())
+    {
+        push_front(value);
+    }
+    else if(pos >= 0 && pos <= getSize() - 1)
     {
         if(pos == 0)
         {
@@ -120,7 +147,7 @@ void LinkedList::insert(int pos, int value)
     }
     else
     {
-        throw std::invalid_argument("Posicion invalida en la lista.");
+        throw std::invalid_argument("Posicion invalida en la lista.\n");
     }
 }
 
@@ -153,7 +180,7 @@ void LinkedList::pop_front()
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
     }
     else
     {
@@ -168,7 +195,7 @@ void LinkedList::pop_back()
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
     }
     else
     {
@@ -214,7 +241,7 @@ void LinkedList::pop_position(int pos)
     }
     else
     {
-        throw std::invalid_argument("Posicion invalida en la lista.");
+        throw std::invalid_argument("Posicion invalida en la lista.\n");
     }
 }
 
@@ -222,7 +249,11 @@ void LinkedList::remove(int value)
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
+    }
+    else if(!search(value))
+    {
+        throw std::invalid_argument("Elemento no existente en la lista.\n");
     }
     else
     {
@@ -254,7 +285,7 @@ void LinkedList::reverse()
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia.\n");
     }
     else
     {
@@ -274,7 +305,11 @@ void LinkedList::reverse()
 
 void LinkedList::erase(int pos_i, int pos_f)
 {
-    if((pos_i >= 0 && pos_i < getSize()) && (pos_f >= 0 && pos_f < getSize()))
+    if(empty())
+    {
+        throw std::invalid_argument("Lista Vacia.\n");
+    }
+    else if((pos_i >= 0 && pos_i < getSize()) && (pos_f >= 0 && pos_f < getSize()))
     {
         if(pos_i == 0)
         {
@@ -309,30 +344,44 @@ void LinkedList::erase(int pos_i, int pos_f)
     }
     else
     {
-        throw std::invalid_argument("Posicion invalida en la lista.");
+        throw std::invalid_argument("Posicion invalida en la lista.\n");
     }
 }
 
 void LinkedList::sort()
 {
-    MergeSort(&head);
+    if(empty())
+    {
+        throw std::invalid_argument("Lista Vacia.\n");
+    }
+    else
+    {
+        MergeSort(&head);
+    }
 }
 
 void LinkedList::descendent_sort()
 {
-    DescendentMergeSort(&head);
+    if(empty())
+    {
+        throw std::invalid_argument("Lista Vacia.\n");
+    }
+    else
+    {
+        DescendentMergeSort(&head);
+    }
 }
 
 void LinkedList::MergeSort(Node **Ref_head)
 {
-    Node *head = *Ref_head;
+    Node *aux = *Ref_head;
     Node *a = nullptr;
     Node *b = nullptr;
-    if((head == nullptr) || (head->getNext() == nullptr))
+    if((aux == nullptr) || (aux->getNext() == nullptr))
     {
         return;
     }
-    dividir(head, &a, &b);
+    dividir(aux, &a, &b);
     MergeSort(&a);
     MergeSort(&b);
     *Ref_head = SortedMerge(a, b);
@@ -340,14 +389,14 @@ void LinkedList::MergeSort(Node **Ref_head)
 
 void LinkedList::DescendentMergeSort(Node **Ref_head)
 {
-    Node *head = *Ref_head;
+    Node *aux = *Ref_head;
     Node *a = nullptr;
     Node *b = nullptr;
-    if((head == nullptr) || (head->getNext() == nullptr))
+    if((aux == nullptr) || (aux->getNext() == nullptr))
     {
         return;
     }
-    dividir(head, &a, &b);
+    dividir(aux, &a, &b);
     DescendentMergeSort(&a);
     DescendentMergeSort(&b);
     *Ref_head = DescendentSortedMerge(a, b);
@@ -447,11 +496,18 @@ LinkedList::~LinkedList()
 
 std::ostream& operator<<(std::ostream &output, const LinkedList &o)
 {
-    Node *aux;
-    for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+    if(o.empty())
     {
-        output << aux->getValue() << " -> ";
+        throw std::invalid_argument("Lista Vacia\n");
     }
-    output << aux->getValue() << " -> NULL\n";
-    return output;
+    else
+    {
+        Node *aux;
+        for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+        {
+            output << aux->getValue() << " -> ";
+        }
+        output << aux->getValue() << " -> NULL\n";
+        return output;
+    }
 }

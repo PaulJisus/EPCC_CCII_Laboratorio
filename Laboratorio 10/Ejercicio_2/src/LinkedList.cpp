@@ -32,23 +32,23 @@ bool LinkedList::empty() const
     return (getHead() == nullptr);
 }
 
-int LinkedList::front() const
+Node *LinkedList::front() const
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia\n");
     }
     else
     {
-        return(getHead()->getValue());
+        return(getHead());
     }
 }
 
-int LinkedList::back() const
+Node *LinkedList::back() const
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia\n");
     }
     else
     {
@@ -57,7 +57,7 @@ int LinkedList::back() const
         {
             tmp = tmp->getNext();
         }
-        return(tmp->getValue());
+        return(tmp);
     }
 }
 
@@ -119,7 +119,7 @@ void LinkedList::pop_front()
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia\n");
     }
     else
     {
@@ -134,7 +134,7 @@ void LinkedList::remove(int value)
 {
     if(empty())
     {
-        throw std::invalid_argument("Lista Vacia");
+        throw std::invalid_argument("Lista Vacia\n");
     }
     else
     {
@@ -177,11 +177,18 @@ LinkedList::~LinkedList()
 
 std::ostream& operator<<(std::ostream &output, const LinkedList &o)
 {
-    Node *aux;
-    for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+    if(o.empty())
     {
-        output << aux->getValue() << " -> ";
+        throw std::invalid_argument("Lista Vacia\n");
     }
-    output << aux->getValue() << " -> NULL\n";
-    return output;
+    else
+    {
+        Node *aux;
+        for(aux = o.getHead(); aux->getNext()!= nullptr; aux = aux->getNext())
+        {
+            output << aux->getValue() << " -> ";
+        }
+        output << aux->getValue() << " -> NULL\n";
+        return output;
+    }
 }

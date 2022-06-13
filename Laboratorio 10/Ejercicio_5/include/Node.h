@@ -18,4 +18,6 @@ class Node
         Node *next;
 };
 
+std::ostream& operator<<(std::ostream &output, const Node &o);
+
 #endif
