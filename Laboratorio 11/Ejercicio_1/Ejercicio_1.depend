@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1655252971 source:d:\proyectos_c++\ccii_lab_b\laboratorio 11\ejercicio_1\main.cpp
+	<iostream>
+	"Stack.h"
+
+1655253658 d:\proyectos_c++\ccii_lab_b\laboratorio 11\ejercicio_1\include\stack.h
+	<iostream>
+	"Node.h"
+
+1655247404 d:\proyectos_c++\ccii_lab_b\laboratorio 11\ejercicio_1\include\node.h
+	<iostream>
+
+1655247413 source:d:\proyectos_c++\ccii_lab_b\laboratorio 11\ejercicio_1\src\node.cpp
+	"Node.h"
+
+1655415773 source:d:\proyectos_c++\ccii_lab_b\laboratorio 11\ejercicio_1\src\stack.cpp
+	"Stack.h"
+
