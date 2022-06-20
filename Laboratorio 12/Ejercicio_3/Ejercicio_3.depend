@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1655692180 source:d:\proyectos_c++\ccii_lab_b\laboratorio 12\ejercicio_3\src\node.cpp
+	"Node.h"
+
+1655692161 d:\proyectos_c++\ccii_lab_b\laboratorio 12\ejercicio_3\include\node.h
+	<iostream>
+
+1655693406 source:d:\proyectos_c++\ccii_lab_b\laboratorio 12\ejercicio_3\src\queue.cpp
+	"Queue.h"
+
+1655692276 d:\proyectos_c++\ccii_lab_b\laboratorio 12\ejercicio_3\include\queue.h
+	<iostream>
+	"Node.h"
+
+1655698237 source:d:\proyectos_c++\ccii_lab_b\laboratorio 12\ejercicio_3\main.cpp
+	<iostream>
+	"Queue.h"
+
