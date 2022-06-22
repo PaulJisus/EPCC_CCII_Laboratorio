@@ -64,7 +64,7 @@ void Mostrar(Persona *companieros, unsigned int n)
     std::string meses[12]{"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"};
     std::cout << "\nIngrese el numero del mes:\n";
     std::cin >> m;
-    std::string mes_m = meses[m];
+    std::string mes_m = meses[m - 1];
     for(unsigned int i{0}; i < n; i++)
     {
         if(companieros[i].fecha.mes == m)
