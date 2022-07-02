@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1656729659 source:d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<chrono>
+	<limits>
+	"LinkedList.h"
+	"Producto.h"
+
+1656723512 d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\include\producto.h
+	<iostream>
+	<string>
+
+1656729274 source:d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\src\linkedlist.cpp
+	"LinkedList.h"
+
+1656728026 d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\include\linkedlist.h
+	"Node.h"
+	<iostream>
+	<random>
+	<chrono>
+
+1656723535 d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\include\node.h
+	<iostream>
+	"Producto.h"
+
+1656723546 source:d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\src\node.cpp
+	"Node.h"
+
+1656727022 source:d:\proyectos_c++\ccii_lab_b\laboratorio 14\ejercicio_1\src\producto.cpp
+	"Producto.h"
+
