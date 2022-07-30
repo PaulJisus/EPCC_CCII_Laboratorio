@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1659131749 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\guifactory.cpp
+	"GUIFactory.h"
+
+1659131967 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\guifactory.h
+	"WinFactory.h"
+	"MacFactory.h"
+	"LinuxFactory.h"
+
+1659146754 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\winfactory.h
+	<string>
+
+1659139994 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\macfactory.h
+	<string>
+	"WinFactory.h"
+
+1659132371 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxfactory.h
+	<string>
+
+1659143266 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\button.cpp
+	"Button.h"
+
+1659143247 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\button.h
+	"GUIFactory.h"
+	"WinButton.h"
+	"MacButton.h"
+	"LinuxButton.h"
+
+1659136236 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\winbutton.h
+	<string>
+	"WinFactory.h"
+
+1659136759 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\macbutton.h
+	<string>
+	"MacFactory.h"
+
+1659137230 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxbutton.h
+	<string>
+	"LinuxFactory.h"
+
+1659143328 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\checkbox.cpp
+	"CheckBox.h"
+
+1659143310 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\checkbox.h
+	"GUIFactory.h"
+	"WinCheckBox.h"
+	"MacCheckBox.h"
+	"LinuxCheckBox.h"
+
+1659136443 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\wincheckbox.h
+	<string>
+	"WinFactory.h"
+
+1659137075 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\maccheckbox.h
+	<string>
+	"MacFactory.h"
+
+1659137400 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxcheckbox.h
+	<string>
+	"LinuxFactory.h"
+
+1659139681 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxbutton.cpp
+	"LinuxButton.h"
+
+1659143140 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\main.cpp
+	<iostream>
+	"GUIFactory.h"
+	"Button.h"
+	"CheckBox.h"
+
+1659139676 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxcheckbox.cpp
+	"LinuxCheckBox.h"
+
+1659132306 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxfactory.cpp
+	"LinuxFactory.h"
+
+1659139716 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\winbutton.cpp
+	"WinButton.h"
+
+1659139699 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\macbutton.cpp
+	"MacButton.h"
+
+1659139692 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\maccheckbox.cpp
+	"MacCheckBox.h"
+
+1659136056 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\macfactory.cpp
+	"MacFactory.h"
+
+1659146756 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\winfactory.cpp
+	"WinFactory.h"
+
+1659140015 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\wincheckbox.cpp
+	"WinCheckBox.h"
+
+1659143429 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\label.cpp
+	"Label.h"
+
+1659143418 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\label.h
+	"GUIFactory.h"
+	"WinLabel.h"
+	"MacLabel.h"
+	"LinuxLabel.h"
+
+1659141140 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\winlabel.h
+	<string>
+	"WinFactory.h"
+
+1659141556 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\maclabel.h
+	<string>
+	"MacFactory.h"
+
+1659141740 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxlabel.h
+	<string>
+	"LinuxFactory.h"
+
+1659141760 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxlabel.cpp
+	"LinuxLabel.h"
+
+1659141609 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxselect.cpp
+	"LinuxSelect.h"
+
+1659141575 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxselect.h
+	<string>
+	"LinuxFactory.h"
+
+1659141686 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\linuxswitch.cpp
+	"LinuxSwitch.h"
+
+1659141665 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\linuxswitch.h
+	<string>
+	"LinuxFactory.h"
+
+1659141493 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\maclabel.cpp
+	"MacLabel.h"
+
+1659141303 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\macselect.cpp
+	"MacSelect.h"
+
+1659141256 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\macselect.h
+	<string>
+	"MacFactory.h"
+
+1659141407 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\macswitch.cpp
+	"MacSwitch.h"
+
+1659141375 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\macswitch.h
+	<string>
+	"MacFactory.h"
+
+1659143374 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\select.cpp
+	"Select.h"
+
+1659143361 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\select.h
+	"GUIFactory.h"
+	"WinSelect.h"
+	"MacSelect.h"
+	"LinuxSelect.h"
+
+1659140899 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\winselect.h
+	<string>
+	"WinFactory.h"
+
+1659141161 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\winlabel.cpp
+	"WinLabel.h"
+
+1659140939 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\winselect.cpp
+	"WinSelect.h"
+
+1659143403 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\switch.cpp
+	"Switch.h"
+
+1659143391 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\switch.h
+	"GUIFactory.h"
+	"WinSwitch.h"
+	"MacSwitch.h"
+	"LinuxSwitch.h"
+
+1659141035 d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\include\winswitch.h
+	<string>
+	"WinFactory.h"
+
+1659141066 source:d:\proyectos_c++\ccii_lab_b\laboratorio 16\ejercicio_1\src\winswitch.cpp
+	"WinSwitch.h"
+

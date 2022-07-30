@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ejercicio_1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ejercicio_1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ejercicio_1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/CheckBox.h" />
+		<Unit filename="include/GUIFactory.h" />
+		<Unit filename="include/Label.h" />
+		<Unit filename="include/LinuxButton.h" />
+		<Unit filename="include/LinuxCheckBox.h" />
+		<Unit filename="include/LinuxFactory.h" />
+		<Unit filename="include/LinuxLabel.h" />
+		<Unit filename="include/LinuxSelect.h" />
+		<Unit filename="include/LinuxSwitch.h" />
+		<Unit filename="include/MacButton.h" />
+		<Unit filename="include/MacCheckBox.h" />
+		<Unit filename="include/MacFactory.h" />
+		<Unit filename="include/MacLabel.h" />
+		<Unit filename="include/MacSelect.h" />
+		<Unit filename="include/MacSwitch.h" />
+		<Unit filename="include/Select.h" />
+		<Unit filename="include/Switch.h" />
+		<Unit filename="include/WinButton.h" />
+		<Unit filename="include/WinCheckBox.h" />
+		<Unit filename="include/WinFactory.h" />
+		<Unit filename="include/WinLabel.h" />
+		<Unit filename="include/WinSelect.h" />
+		<Unit filename="include/WinSwitch.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CheckBox.cpp" />
+		<Unit filename="src/GUIFactory.cpp" />
+		<Unit filename="src/Label.cpp" />
+		<Unit filename="src/LinuxButton.cpp" />
+		<Unit filename="src/LinuxCheckBox.cpp" />
+		<Unit filename="src/LinuxFactory.cpp" />
+		<Unit filename="src/LinuxLabel.cpp" />
+		<Unit filename="src/LinuxSelect.cpp" />
+		<Unit filename="src/LinuxSwitch.cpp" />
+		<Unit filename="src/MacButton.cpp" />
+		<Unit filename="src/MacCheckBox.cpp" />
+		<Unit filename="src/MacFactory.cpp" />
+		<Unit filename="src/MacLabel.cpp" />
+		<Unit filename="src/MacSelect.cpp" />
+		<Unit filename="src/MacSwitch.cpp" />
+		<Unit filename="src/Select.cpp" />
+		<Unit filename="src/Switch.cpp" />
+		<Unit filename="src/WinButton.cpp" />
+		<Unit filename="src/WinCheckBox.cpp" />
+		<Unit filename="src/WinFactory.cpp" />
+		<Unit filename="src/WinLabel.cpp" />
+		<Unit filename="src/WinSelect.cpp" />
+		<Unit filename="src/WinSwitch.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
