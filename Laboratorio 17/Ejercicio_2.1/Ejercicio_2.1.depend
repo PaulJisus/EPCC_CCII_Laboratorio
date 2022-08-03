@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1659490500 source:d:\proyectos_c++\ccii_lab_b\laboratorio 17\ejercicio_2.1\src\node.cpp
+	"Node.h"
+
+1659492233 d:\proyectos_c++\ccii_lab_b\laboratorio 17\ejercicio_2.1\include\node.h
+	<iostream>
+

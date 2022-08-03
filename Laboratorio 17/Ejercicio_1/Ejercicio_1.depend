@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1659486587 source:d:\proyectos_c++\ccii_lab_b\laboratorio 17\ejercicio_1\src\calculadora.cpp
+	"Calculadora.h"
+
+1659486775 d:\proyectos_c++\ccii_lab_b\laboratorio 17\ejercicio_1\include\calculadora.h
+	<iostream>
+
+1659486763 source:d:\proyectos_c++\ccii_lab_b\laboratorio 17\ejercicio_1\main.cpp
+	<iostream>
+	"Calculadora.h"
+
