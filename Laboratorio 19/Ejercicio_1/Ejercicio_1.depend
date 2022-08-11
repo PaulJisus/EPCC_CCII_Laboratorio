@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1660193124 source:d:\proyectos_c++\ccii_lab_b\laboratorio 19\ejercicio_1\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+
