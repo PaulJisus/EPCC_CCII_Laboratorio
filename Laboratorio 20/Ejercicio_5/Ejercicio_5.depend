@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1660527943 source:d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5\src\point.cpp
+	"Point.h"
+
+1660527934 d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5\include\point.h
+	<iostream>
+
+1660528649 source:d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5\main.cpp
+	<iostream>
+	<memory>
+	"Point.h"
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1660531141 source:d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5.1\main.cpp
+	<iostream>
+	<memory>
+	"C1.h"
+	"C2.h"
+
+1660531076 source:d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5.1\src\c2.cpp
+	"C2.h"
+
+1660531018 d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5.1\include\c2.h
+	<memory>
+	<iostream>
+
+1660530985 source:d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5.1\src\c1.cpp
+	"C1.h"
+
+1660530692 d:\proyectos_c++\ccii_lab_b\laboratorio 20\ejercicio_5.1\include\c1.h
+	<memory>
+	<iostream>
+
